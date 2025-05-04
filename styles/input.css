@@ -1,0 +1,23 @@
+input, textarea, select {
+    appearance: none;
+    width: 100%;
+    border-radius: .5rem;
+    border: 2px solid transparent;
+    outline: 1px solid var(--stroke-default);
+    padding: .75rem 1rem;
+    font: var(--text-body-md);
+    background-color: var(--input-base);
+    margin-bottom: 1rem;
+}
+
+input [type="datetime-local"] {
+    display: none;
+    color: var(--input-placeholder);
+}
+
+label {
+    font: var(--text-body-sm);
+    color: var(--text-body);
+    display: block;
+    margin-bottom: .75rem;
+}

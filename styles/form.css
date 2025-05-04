@@ -1,0 +1,39 @@
+#form-content {
+    background-color: var(--shape-background);
+    border-radius: .75rem;
+    margin: 1.25rem 1.25rem 1.25rem 0;
+    padding-block: 5rem;
+    overflow: auto;
+}
+
+
+.container {
+    max-width: 35rem;
+    margin-inline: auto;
+  }
+
+.title-form {
+    font: var(--text-heading-md);
+    color: var(--text-heading);
+    padding-bottom: 2.5rem;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 3rem;
+}
+
+legend {
+    display: flex;
+    gap: .75rem;
+    align-items: center;
+    font: var(--text-heading-sm);
+    color: var(--text-heading);
+    padding-bottom: 1.5rem;
+}
+
+legend img {
+    width: 24px;
+    height: 24px;
+}
+

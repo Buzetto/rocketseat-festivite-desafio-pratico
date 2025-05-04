@@ -35,7 +35,7 @@
 
 body{
     overflow: hidden;
-    background-color: var(--shape-background);
+    background-color: #000000;
 }
 
 h2 {
@@ -51,4 +51,16 @@ h3 {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.gap-1 {
+    gap: 1rem;
 }

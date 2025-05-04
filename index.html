@@ -22,6 +22,37 @@
                 </header>
             </div>
         </aside>
+
+        <main id="form-content">
+            <div class="container">
+                <h2 class="title-form">Crie seu convite</h2>
+
+                <form method="post" enctype="multipart/form-data">
+                    <fieldset id="event-about">
+                        <legend class="legend-event-about">
+                            <img src="/assets/icons/calendar.svg" alt="Ícone de calendário">
+                            <h3>Sobre o evento</h3>
+                        </legend>
+
+                        <div class="input-wrapper">
+                            <label for="event-title">Título</label>
+                            <input type="text" id="event-title" name="event-title" placeholder="Nome Completo">
+                        </div>
+
+                        <div class="gap-1 flex">
+                            <div class="input-wrapper flex-1">
+                                <label for="event-start">Inicio</label>
+                                <input type="datetime-local" id="event-start" name="event-start" placeholder="DD/MM/AAAA, --:--">
+                            </div>
+                            <div class="input-wrapper flex-1">
+                                <label for="event-end">Inicio</label>
+                                <input type="datetime-local" id="event-end" name="event-end" placeholder="DD/MM/AAAA, --:--">
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
     </div>
 </body>
 </html>
