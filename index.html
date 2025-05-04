@@ -45,10 +45,37 @@
                                 <input type="datetime-local" id="event-start" name="event-start" placeholder="DD/MM/AAAA, --:--">
                             </div>
                             <div class="input-wrapper flex-1">
-                                <label for="event-end">Inicio</label>
+                                <label for="event-end">Término</label>
                                 <input type="datetime-local" id="event-end" name="event-end" placeholder="DD/MM/AAAA, --:--">
                             </div>
                         </div>
+
+                        <div class="gap-1 flex">
+                            <div class="input-wrapper flex-1">
+                                <label for="event-type">Tipo</label>
+                                <div class="segmented-control radio-wrapper">
+                                    <div class="radio-inner">
+                                        <img src="/assets/icons/building-default.svg" alt="ícone de prédio">
+                                        <label for="presencial">Presencial</label>
+                                        <input type="radio" id="presencial" name="presencial" checked>
+                                    </div>
+                                    <div class="radio-inner">
+                                        <img src="/assets/icons/camera-default.svg" alt="ícone de prédio">
+                                        <label for="online">Online</label>
+                                        <input type="radio" id="online" name="online">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="address">Local</label>
+                                <input type="text" id="address" name="address" placeholder="Link do Endereço">
+                            </div>
+                        </div>
+
+                        <div class="textarea-wrapper">
+                            <label for="event-description">Descrição</label>
+                            <textarea name="event-description" id="event-description" rows="5" placeholder="Escreva sobre os detalhes do evento"></textarea>
+                          </div>
                     </fieldset>
                 </form>
             </div>
