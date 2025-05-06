@@ -18,7 +18,7 @@ select {
 
   &:hover,
   &:focus {
-    outline: 1px solid var(--color-brand-light);
+    outline: 1px solid var(--brand-light);
     outline-offset: 0.1px; /* para aparecer a borda no Safari */
   }
 
@@ -27,7 +27,7 @@ select {
   }
 
   &:invalid {
-    outline: 1px solid var(--color-feedback-danger);
+    outline: 1px solid #FF5959;
   }
 
   &:valid + .error {
@@ -38,8 +38,6 @@ select {
 input[type="datetime-local"] {
   color-scheme: dark;
   &::-webkit-calendar-picker-indicator {
-    /* filter: invert(1); */
-    /* color-scheme: dark; */
     opacity: 0.8;
   }
 }
@@ -98,7 +96,7 @@ input[type="text"] {
 
 .error {
   font: var(--text-body-xs);
-  color: var(--color-feedback-danger);
+  color: #FF5959;
   padding-top: 8px;
 
   display: flex;

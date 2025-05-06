@@ -67,3 +67,9 @@ img {
 .gap-1 {
     gap: 1rem;
 }
+
+.divider {
+    height: 1px;
+    margin-bottom: 2.5rem;
+    background-color: var(--input-stroke);
+}
